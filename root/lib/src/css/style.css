@@ -1,0 +1,37 @@
+@charset "utf-8";
+@viewport{width:device-width;}
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+*{margin:0;padding:0;box-sizing:border-box;}
+.hdr{font-family:'Poppings',sans-serif;margin:25px;background:#888;padding:2px;box-shadow:1.1px 1.1px #777;}
+.hdr .row{margin:8px auto;}
+.btn{display:inline-block;background:#ff523b;color:#fff;padding:8px 30px;margin:30px 0px;border-radius:30px;transition:background 0.5s;}
+.btn:hover{background:#563434;}
+.nbr{display:flex;align-items:center;padding:20px;}
+.nbtn{width:30px;height:30px;}
+.row{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-around;}
+.cats .row .col a{width:200px;height:200px;box-shadow:1px 1.25px #888;border:1px solid #777;background:#ddd;display:inline-grid;}
+.cats .row .col a h4{text-align:center;font-family:arial;color:#333;}
+.cats .row .col a p{text-align:left;font-family:arial;color:#333;}
+.ft1{width:200px;height:133px;margin:33px 0px;}
+.ft2{width:160px;height:160px;margin:19px;}
+.ft3{width:200px;height:200px;}
+.ft4{width:200px;height:200px;}
+.ft5{width:200px;height:200px;}
+.ft6{width:200px;height:200px;}
+.ft7{width:200px;height:200px;}
+.ft8{width:200px;height:200px;}
+#shdw{border:1px solid #101010;width:64%;box-shadow:1px 1.5px #333;margin:auto;background:#333;border-radius:0px 0px 32px 32px;}
+#shdw2{border:1px solid #101010;width:64%;box-shadow:1px 1.5px #333;margin:0px auto;background:#555;}
+#ftr{text-align:center;color:#444;background:#111;}
+h2{text-align:center;font-family:arial;color:#222;font-size:24px;}
+div.cntr{border:1px solid #777;margin:auto;padding:25px;box-shadow:1px 1.5px #999;}
+header{text-align:center;font-family:Arial,Helvetica,sans-serif;margin:auto;}
+body{font-family:'Poppings',sans-serif;background:radial-gradient(#fff,#111)no-repeat;}
+nav{text-align:right;}
+nav ul{display:inline-block;list-style-type:none;}
+nav ul li{display:inline-block;margin-right:20px;}
+section,article{text-align:center;width:50%;height:auto;background:#444;margin:48px auto;display:grid;}
+section{float:left;}
+article{float:right;}
+a{text-decoration:none;color:#555;text-align:center;}
+p{width:auto;color:#333;}
